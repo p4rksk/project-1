@@ -63,51 +63,58 @@
                                 <label for="businessNumber" class="form-label" style="margin-top: 20px;">사업자
                                     번호</label>
                                 <input type="text" class="form-control" id="businessNumber" name="businessNumber"
-                                    required>
+                                    placeholder="사업자 번호" required>
                             </div>
 
                             <div class="mb-3">
                                 <label for="companyName" class="form-label">회사명</label>
-                                <input type="text" class="form-control" id="companyName" name="companyName" required>
+                                <input type="text" class="form-control" id="companyName" name="companyName"
+                                    placeholder="회사명" required>
                             </div>
                             <div class="mb-3">
                                 <label for="companyAddress" class="form-label">회사주소</label>
                                 <input type="text" class="form-control" id="companyAddress" name="companyAddress"
-                                    required>
+                                    placeholder="회사 주소" required>
                             </div>
 
                             <!-- 인사 담당자 정보 -->
-                            <div class="mb-2">
-                                <div class="input-group" style="margin-top: 20px; margin-bottom: 20px;">
-                                    <label for="id" class="input-group-text"
-                                        style="background-color: white;">아이디</label>
-                                    <input type="id" class="form-control" id="id" name="id" required>
+                            <div class="mb-3">
+                                <div style="margin-top: 20px; margin-bottom: 20px;">
+                                    <label for="id" style="background-color: white; margin-bottom: 8px;">아이디</label>
+                                    <div class="d-flex text-nowrap">
+                                        <input type="id" class="form-control" id="id" name="id" placeholder="아이디"
+                                            required>
+                                        <button type="submit" class="btn btn-primary btn-block">아이디 중복 체크</button>
+                                    </div>
                                 </div>
                                 <div>
-                                    <div class="input-group" style="margin-bottom: 15px;">
-                                        <label for="pw" class="input-group-text"
-                                            style="background-color: white;">비밀번호</label>
-                                        <input type="password" class="form-control" id="pw" name="pw" required>
+                                    <div style="margin-bottom: 15px;">
+                                        <label for="pw"
+                                            style="background-color: white; margin-bottom: 8px;">비밀번호</label>
+                                        <input type="password" class="form-control" id="pw" name="pw" placeholder="비밀번호"
+                                            required>
                                     </div>
                                 </div>
                             </div>
                             <div class="mb-3">
                                 <label for="pw" class="form-label">가입자명</label>
-                                <input type="password" class="form-control" id="pw" name="pw" required>
+                                <input type="password" class="form-control" id="pw" name="pw" placeholder="가입자명"
+                                    required>
                             </div>
                             <div class="mb-3">
                                 <label for="hp" class="form-label">휴대폰 번호</label>
-                                <input type="tel" class="form-control" id="hp" name="hp" required>
+                                <input type="tel" class="form-control" id="hp" name="hp" placeholder="휴대폰 번호" required>
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label">이메일 주소</label>
-                                <input type="email" class="form-control" id="email" name="email" required>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="이메일 주소"
+                                    required>
                             </div>
                     </div>
-                    <div class="text-center">
+                    <div class="text-center mb-3 ">
                         <button type="submit" class="btn btn-primary btn-block">가입하기</button>
-                        </form>
                     </div>
+                    </form>
                 </div>
             </div>
         </div>
